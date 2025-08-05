@@ -11,7 +11,7 @@ import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
-public class TestListener extends BaseClass implements ITestListener {
+public class TestListener implements ITestListener {
 	public static ExtentSparkReporter extentSparkReporter;
 	public static ExtentReports extentReports;
 	public static ExtentTest extentTest;

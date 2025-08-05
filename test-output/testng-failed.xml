@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Practice.Testcases">
+      <class name="Practice.SchemaValidation">
         <methods>
-          <include name="getFailMethod" invocation-numbers="0"/>
+          <include name="getList"/>
         </methods>
-      </class> <!-- Practice.Testcases -->
+      </class> <!-- Practice.SchemaValidation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
